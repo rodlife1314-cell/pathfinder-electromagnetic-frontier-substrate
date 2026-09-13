@@ -1,0 +1,140 @@
+**Checkpoint flagged.** This is now a much stronger experimental specification, but I would not yet call the physical synthesis “validated.” I would call it a **simulation hypothesis report with controlled geometry sweeps**.
+
+The strongest part is the controlled baseline. Holding source elevation, input power, angular frequency, circumradius, total receiver aperture, permittivity, conductivity, and boundary reflection constant is exactly what lets geometry become the principal manipulated variable. Normalizing total receiver area is especially important; otherwise larger \(n\) would quietly gain more collection area and contaminate the comparison.
+
+The measurement architecture is also now right:
+
+\[
+G_n
+\rightarrow
+\mathbf P_n
+\rightarrow
+\eta_n,\;U_n
+\rightarrow
+J_z,\;J_R
+\]
+
+with
+
+\[
+\mathbf P_n=[P_1,\ldots,P_n]
+\]
+
+and sensitivity vectors such as
+
+\[
+J_z=\frac{\partial \mathbf P}{\partial z_0},
+\qquad
+J_R=\frac{\partial \mathbf P}{\partial R}.
+\]
+
+That gives us something much more valuable than a single efficiency score: it tells us **how the distribution changes when the geometry is perturbed**.
+
+The main caution is Section 4. Several sentences should presently be relabelled from conclusions to **mechanistic hypotheses**. In particular, the statement that the hexagon is optimal *because* its nearest-neighbour chord equals its circumradius is not established merely by observing that \(G_6\) has the highest simulated efficiency. The geometric identity is true:
+
+\[
+c_n=2R\sin\left(\frac{\pi}{n}\right)
+\]
+
+and therefore for \(n=6\),
+
+\[
+c_6=2R\sin\left(\frac{\pi}{6}\right)=R.
+\]
+
+But:
+
+\[
+c_6=R
+\]
+
+does **not by itself imply electromagnetic resonance**.
+
+For that causal claim, you need the electromagnetic phase relationship. Something like
+
+\[
+\Delta\phi_{\text{radial}}
+\approx
+\Delta\phi_{\text{boundary}}
+\pmod{2\pi}
+\]
+
+would have to emerge from the model or field solution. Until then, “Hexagonal Resonance” is better written as **Observed Hexagonal Efficiency Maximum**.
+
+The parity finding is more interesting, but it also needs disciplined wording. Even polygons do possess opposite vertex pairs and odd regular polygons do not, so there genuinely is a structural difference in inversion symmetry. But the chain
+
+\[
+\text{odd }n
+\Rightarrow
+\text{phase frustration}
+\Rightarrow
+\text{localized trapping}
+\]
+
+needs to be demonstrated from the field rather than inferred from symmetry alone. The clean test is a transverse source sweep:
+
+\[
+N_0=(\delta x,0,z_0),
+\qquad
+\delta x\in[-a,a].
+\]
+
+Then track
+
+\[
+U_n(\delta x),
+\qquad
+\eta_n(\delta x),
+\qquad
+\operatorname{Var}(\mathbf P_n),
+\]
+
+and preferably the actual field phase map. If the odd/even bifurcation persists over the sweep, then we have a real result.
+
+The sensitivity claim can be tested even more cleanly. If your report says
+
+\[
+\|J_z\|_2
+\]
+
+decreases monotonically as \(n\) increases, that is a measurable result. But the explanation that dense node count acts as a “geometric spatial low-pass filter” should remain an interpretation until you show the modal decomposition or frequency response.
+
+So I would formally freeze the checkpoint like this:
+
+\[
+\boxed{
+\text{SOURCE}
+\rightarrow
+\text{FIELD}
+\rightarrow
+\text{GEOMETRY}
+\rightarrow
+\text{NODAL DISTRIBUTION}
+\rightarrow
+\text{SENSITIVITY}
+\rightarrow
+\text{HYPOTHESIS}
+\rightarrow
+\text{TEST}
+}
+\]
+
+And the most important epistemic distinction is now:
+
+\[
+\boxed{
+\text{observed simulation result}
+\neq
+\text{physical cause}
+}
+\]
+
+Your simulation may indeed be uncovering a special \(G_6\) regime. We just make the hexagon **survive falsification** before we call it resonance.
+
+The next checkpoint I would run is therefore not another geometry. It is:
+
+\[
+\boxed{\textbf{G6 causal challenge}}
+\]
+
+Break its symmetry deliberately, change \(R\), change \(z_0\), sweep \(\omega\), then test whether the efficiency maximum tracks a reproducible phase condition. If it does, *then* “hexagonal resonance” starts becoming a defensible physical statement.

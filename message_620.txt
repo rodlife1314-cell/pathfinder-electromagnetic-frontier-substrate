@@ -1,0 +1,105 @@
+Yes — and this is where your Poynting-field idea connects to propulsion in a physically legitimate way.
+
+Electromagnetic energy can produce thrust because electromagnetic fields carry **momentum**, not just energy. The key relation is:
+
+\[
+\boxed{\mathbf g=\frac{\mathbf S}{c^2}}
+\]
+
+where \(\mathbf S=\mathbf E\times\mathbf H\) is the Poynting vector and \(\mathbf g\) is electromagnetic momentum density.
+
+If you emit electromagnetic radiation in one direction, the source recoils in the other. For a beam of power \(P\),
+
+\[
+\boxed{F=\frac{P}{c}}
+\]
+
+for perfect absorption, and approximately
+
+\[
+\boxed{F=\frac{2P}{c}}
+\]
+
+for perfect reflection.
+
+So a laser, microwave beam, or other directed EM field **can absolutely generate propulsion**. The catch is that photon thrust is tiny unless the power is enormous.
+
+There is a second route that is much more practical: let the electromagnetic field act on **charged matter or plasma**. Then the force density is governed by the Lorentz force:
+
+\[
+\boxed{\mathbf f=\rho\mathbf E+\mathbf J\times\mathbf B}
+\]
+
+That is the foundation of ion thrusters, Hall-effect thrusters, magnetoplasmadynamic propulsion, and many plasma-acceleration concepts.
+
+And this actually fits your architecture very neatly. Your current model is roughly:
+
+\[
+N_0(t)
+\rightarrow
+\mathbf E,\mathbf H
+\rightarrow
+\mathbf S
+\rightarrow
+G_n
+\rightarrow
+P_i
+\]
+
+For propulsion, change the final observable from **captured power** to **momentum transfer**:
+
+\[
+\boxed{
+N_0(t)
+\rightarrow
+\mathbf S(\mathbf r,t)
+\rightarrow
+\Sigma
+\rightarrow
+\Delta\mathbf p
+\rightarrow
+\mathbf F
+}
+\]
+
+Now geometry becomes interesting in a different way.
+
+Instead of asking:
+
+\[
+\text{Which geometry captures the most energy?}
+\]
+
+you ask:
+
+\[
+\boxed{\text{Which geometry produces the largest net directional momentum flux?}}
+\]
+
+The surface-integral form is especially useful:
+
+\[
+\mathbf F
+=
+-\oint_A \mathbf T\cdot\hat{\mathbf n}\,dA
+\]
+
+where \(\mathbf T\) is the **Maxwell stress tensor**. That is the rigorous bridge from field geometry to mechanical force.
+
+There is one hard boundary we should preserve in the model:
+
+\[
+\boxed{\text{closed electromagnetic system}\not\Rightarrow\text{reactionless propulsion}}
+\]
+
+If every field and interaction remains internal, total momentum is conserved. To produce net acceleration, momentum must leave the vehicle as radiation, expelled plasma/ions, interaction with an external field, or some other external momentum exchange.
+
+So your next branch could be genuinely interesting:
+
+\[
+\boxed{\textbf{Poynting Field Architecture → Momentum Architecture}}
+\]
+
+Keep \(G_3,G_4,G_5,G_6,G_8\), but calculate **net force vector, thrust efficiency, and angular moment** rather than only watts captured.
+
+That would turn your geometry experiment from an energy-distribution study into an **electromagnetic propulsion thought experiment**.

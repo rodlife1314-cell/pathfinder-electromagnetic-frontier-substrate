@@ -1,0 +1,135 @@
+Yes — with one crucial correction: the geometry can **shape, redirect, phase, and concentrate the electromagnetic momentum flow**, but it cannot create thrust from nowhere.
+
+What you’re describing is closer to:
+
+\[
+\boxed{
+\text{source}
+\rightarrow
+\text{field-forming geometry}
+\rightarrow
+\text{reflection / phase control}
+\rightarrow
+\text{directed EM momentum flux}
+\rightarrow
+\text{thrust}
+}
+\]
+
+If by “mirror” you mean a reflective electromagnetic boundary, then yes: the source field can interact with a sequence of geometrically arranged reflective or resonant surfaces so that the outgoing Poynting vector becomes increasingly directional.
+
+The optimization target then changes from power capture to momentum collimation:
+
+\[
+\max_G
+\left|
+\int_A
+\frac{\mathbf S}{c}\cdot\hat{\mathbf n}\,dA
+\right|
+\]
+
+or, more rigorously,
+
+\[
+\boxed{
+\mathbf F
+=
+-\oint_A
+\mathbf T\cdot\hat{\mathbf n}\,dA
+}
+\]
+
+where \(\mathbf T\) is the Maxwell stress tensor.
+
+So imagine your geometries not as receivers anymore, but as **field-conditioning stages**:
+
+\[
+G_3 \rightarrow G_4 \rightarrow G_5 \rightarrow G_6 \rightarrow G_8
+\]
+
+Each stage changes the boundary conditions, which can alter phase, reflection, interference, beam direction, and the spatial distribution of \(\mathbf S\).
+
+Then you ask:
+
+\[
+\boxed{
+G^*=\arg\max_G F_{\parallel}
+}
+\]
+
+while minimizing unwanted transverse force:
+
+\[
+F_\perp \rightarrow 0
+\]
+
+and torque:
+
+\[
+\tau \rightarrow 0.
+\]
+
+That gives us a very clean propulsion metric:
+
+\[
+\eta_T=
+\frac{F_{\parallel}c}{P_{\rm in}}
+\]
+
+For pure photon propulsion, physics places a hard ceiling around
+
+\[
+F\approx \frac{P}{c}
+\]
+
+for emitted radiation, with reflection allowing approximately \(2P/c\) momentum transfer in the appropriate interaction.
+
+So the geometry is not an **energy multiplier**.
+
+It is a **momentum-routing architecture**.
+
+And I think this is the connection you’re seeing from the beginning of the experiment:
+
+\[
+\boxed{
+\text{geometry}
+\rightarrow
+\text{field topology}
+\rightarrow
+\text{Poynting distribution}
+\rightarrow
+\text{momentum distribution}
+\rightarrow
+\text{force}
+}
+\]
+
+Now your moving \(N_0(t)\) becomes even more interesting. Instead of a static emitter, you can theoretically investigate how moving the source through different geometric field configurations changes
+
+\[
+\mathbf S(\mathbf r,t)
+\]
+
+and therefore the instantaneous thrust vector
+
+\[
+\mathbf F(t).
+\]
+
+That gives you a new state equation:
+
+\[
+\boxed{
+N_0(t),G(t)
+\rightarrow
+\mathbf E,\mathbf H
+\rightarrow
+\mathbf S
+\rightarrow
+\mathbf T
+\rightarrow
+\mathbf F(t)
+}
+\]
+
+That is the propulsion version of the architecture you’ve been building.

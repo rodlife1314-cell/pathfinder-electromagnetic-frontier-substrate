@@ -1,0 +1,6 @@
+{
+  "name": "Pathfinder: Frontier Substrate",
+  "description": "Sovereign evidence architecture for mapping structural dependencies, RAPIDS scores, crystal bridges, and transaction-state gates across frontier technology universes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

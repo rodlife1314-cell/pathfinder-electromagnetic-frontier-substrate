@@ -1,0 +1,169 @@
+Rod — this is the point where the idea stops looking like a loose metaphor and starts looking like a **coherent fictional propulsion doctrine**.
+
+You’ve now got four distinct layers working together:
+
+\[
+\boxed{
+\text{Corridor}
+\rightarrow
+\text{Hull state}
+\rightarrow
+\text{Eigenmode mixture}
+\rightarrow
+\text{Momentum exchange}
+}
+\]
+
+The strongest addition is the **Vessel as Engine** page. The line
+
+> “The pilot does not turn the ship. The pilot bends the thread through the ship.”
+
+is doing exactly what we wanted conceptually. Cruise is \(\Gamma_0\): thread-centred, symmetric, zero steering torque. Vectoring is \(\Gamma_\delta\): offset, asymmetric, torque appears, coupling changes.
+
+And the eigenmode panel is even better because now the hull is not one fixed geometry. It is a weighted synthesis:
+
+\[
+\boxed{
+\Psi(t)=\sum_k a_k(t)\psi_k
+}
+\]
+
+That means “triangle”, “hexagon”, “circle”, “chiral”, “vector” are no longer literal hull shapes. They are **electromagnetic operating modes**. The craft changes what it *is electromagnetically* without needing to physically reshape itself.
+
+That is the right direction for the fiction.
+
+I especially like the functional mapping you’ve given them:
+
+- octagon → stabilise boundary
+- square → hold structure
+- triangle → bend thread
+- hexagon → open flow
+- circle → phase-lock
+- pentagon → adapt identity
+- helical mode → ingest/couple to the thread
+- biaxial vector mode → steering
+
+That gives the ship something analogous to a flight-control system, except instead of commanding rudders or thrusters, the controller chooses a state vector
+
+\[
+\mathbf a(t)=
+[a_1,a_2,\ldots,a_8]^T.
+\]
+
+And your displayed rule
+
+\[
+G=F[\Psi]
+\]
+
+can mature into
+
+\[
+\boxed{
+\mathbf a^*(t)
+=
+\arg\max_{\mathbf a}
+J\!\left(
+\text{coupling},
+\text{stability},
+\text{desired trajectory},
+\text{loss}
+\right)
+}
+\]
+
+subject to field and hull constraints.
+
+That is essentially an **electromagnetic flight computer**.
+
+There is one term I would change immediately, even for science fiction:
+
+**“NET REACTIONLESS THRUST” → “NET CORRIDOR THRUST”**  
+or  
+**“NET FIELD-COUPLED THRUST.”**
+
+Because your own architecture actually gives us a much better explanation than reactionless propulsion. The ship is exchanging momentum with the corridor/plasma/field ecosystem. There *is* a reaction partner — it is just external to the vessel.
+
+So:
+
+\[
+\boxed{
+\Delta\mathbf p_{\rm vessel}
+=
+-\Delta\mathbf p_{\rm corridor}
+}
+\]
+
+That protects the story from the usual “reactionless drive” problem while preserving the extraordinary propulsion concept.
+
+The impedance display is also an excellent narrative device. You currently show approximately \(365\,\Omega\) against a \(377\,\Omega\) medium reference. \(377\,\Omega\) is recognisable as the approximate wave impedance of free space, so in the fictional engineering language this becomes a coupling diagnostic:
+
+\[
+Z_{\rm vessel}\rightarrow Z_{\rm corridor}
+\]
+
+means increasingly good field matching.
+
+You could even make the dangerous condition
+
+\[
+|\Delta Z| \gg 0
+\]
+
+because the ship is no longer properly impedance-matched to the corridor: reflection increases, coupling collapses, heating grows, and the vessel risks being ejected from the thread.
+
+And now **HARBOUR** makes sense.
+
+A harbour isn't merely a destination on a map. It is a region where the corridor terminates or transitions into a stable topology where the vessel can safely:
+
+\[
+\text{couple}
+\rightarrow
+\text{decelerate}
+\rightarrow
+\text{phase-match}
+\rightarrow
+\text{decouple}.
+\]
+
+So you have effectively invented the nautical vocabulary of the technology:
+
+\[
+\boxed{
+\text{Harbour}
+\rightarrow
+\text{Enter corridor}
+\rightarrow
+\Gamma_0
+\rightarrow
+\Gamma_\delta
+\rightarrow
+\text{Junction}
+\rightarrow
+\text{Harbour}
+}
+\]
+
+One scientific caution inside the UI: “Heliospheric Current Sheet (450 km/s)” should probably be written as a **scenario assumption**, not a universal value. The solar wind is variable, so that number can be the simulator’s chosen local state rather than an intrinsic property of the current sheet.
+
+But conceptually?
+
+You’ve now got the backbone of the fictional technology:
+
+\[
+\boxed{
+\textbf{The vessel does not carry propulsion through the universe.}
+}
+\]
+
+\[
+\boxed{
+\textbf{It temporarily becomes part of the universe's electromagnetic transport system.}
+}
+\]
+
+And that is considerably stronger than “a spaceship with a strange engine.” It gives the civilisation an entirely different relationship with space.
+
+They don't **cross distance** in the conventional sense.
+
+They learn how to **join the field that already connects it.** 🐾♾️

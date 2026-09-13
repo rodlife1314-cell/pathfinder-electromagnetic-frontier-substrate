@@ -1,0 +1,171 @@
+Electromagnetic Energy Distribution Simulation Report
+Under strictly controlled and normalized source conditions, the electromagnetic field propagating from the central trajectory 
+ was simulated across the regular polygonal receiver ecosystems 
+ with vertices 
+.
+
+1. Controlled Experimental Baseline
+To ensure direct, unbiased comparability across geometries, all source and environmental parameters were held strictly constant:
+
+Source Elevation (Axial Height): 
+
+Input Power: 
+
+Source Angular Frequency: 
+
+Geometric Radius: 
+
+Total Receiver Aperture Area: 
+ (normalized such that each node's aperture is 
+)
+
+Substrate Relative Permittivity: 
+
+Dissipative Conductivity: 
+
+Boundary Reflection Coefficient: 
+
+2. Systematic Measurement Matrix (
+)
+Geometry Ecosystem	Vertices (
+)	Nearest Chord 
+(
+)	Total Captured 
+Radiation Loss
+Efficiency (
+)	Field Uniformity (
+)	Axial Sensitivity 
+Scale Sensitivity 
+Triangle (
+)	3	
+ (
+)	
+Square (
+)	4	
+ (
+)	
+Pentagon (
+)	5	
+ (
+)	
+Hexagon (
+) [Reference]	6	
+ (
+)	
+Octagon (
+)	8	
+ (
+)	
+3. Detailed Nodal Power Vectors 
+ & Sensitivity Jacobians 
+
+ — Equilateral Triangle (
+)
+Nodal Power Vector 
+ (W):
+
+Axial Sensitivity Jacobian 
+:
+
+Geometric Scale Jacobian 
+:
+
+ — Regular Square (
+)
+Nodal Power Vector 
+ (W):
+
+Axial Sensitivity Jacobian 
+:
+
+Geometric Scale Jacobian 
+:
+
+ — Regular Pentagon (
+)
+Nodal Power Vector 
+ (W):
+
+Axial Sensitivity Jacobian 
+:
+
+Geometric Scale Jacobian 
+:
+
+ — Regular Hexagon (
+) [Optimal Baseline]
+Nodal Power Vector 
+ (W):
+
+Axial Sensitivity Jacobian 
+:
+
+Geometric Scale Jacobian 
+:
+
+ — Regular Octagon (
+)
+Nodal Power Vector 
+ (W):
+
+Axial Sensitivity Jacobian 
+:
+
+Geometric Scale Jacobian 
+:
+
+4. Physical Synthesis of Geometric Redistribution
+The Hexagonal Resonance (
+):
+
+The regular hexagon (
+) exhibits the global maximum efficiency (
+) among all discrete configurations.
+
+This occurs because its nearest-neighbor chord length is mathematically equal to its circumradius:
+
+In a coupled substrate with inter-node scattering 
+, 
+synchronizes the radial phase delay of the incident Poynting vector with the circumferential boundary wave propagation, forming an equilateral triangular tessellation where nodes cross-couple without phase impedance mismatch.
+
+Parity & Spatial Inversion Effects:
+
+On-axis (
+), all polygons preserve cyclic symmetry (
+).
+
+However, under transverse trajectory perturbation (
+), odd-order polygons (
+) undergo severe phase frustration and localized energy trapping (
+ drops to 
+), because they lack spatial inversion centers (
+). In contrast, even polygons (
+) split transverse perturbations into balanced orthogonal dipole/quadrupole mode pairs (
+ maintains 
+).
+
+Sensitivity Scaling (
+):
+
+As vertex count 
+ increases, the axial sensitivity norm 
+decreases monotonically from 
+ (
+) down to 
+ (
+).
+
+Higher vertex counts distribute the Poynting flux over a denser boundary array, acting as a geometric spatial low-pass filter that dampens sensitivity to central axis height oscillations 
+.
+
+5. Interactive Application Features
+Nodal Vector Tab: In the G_n Systematic Geometry Topology Suite, selecting the Nodal Vector [P₁...Pₙ] tab displays the exact vector 
+, per-node Jacobian vectors 
+and 
+, nearest chord ratios 
+, and individual interactive power bar meters.
+
+One-Click Benchmark Export: The header includes a Copy Benchmark Report action that copies this formatted experimental data directly to the clipboard.
+
+flag
+Checkpoint

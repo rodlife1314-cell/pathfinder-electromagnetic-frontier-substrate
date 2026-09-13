@@ -1,0 +1,122 @@
+Yes — **this is the first visual that really matches the idea.**
+
+What I’m seeing in these two screenshots is the transition from **static geometry** to **field-routing geometry**.
+
+In the centred version, the thread passes cleanly through the middle:
+
+\[
+\text{INPUT THREAD}
+\rightarrow
+\text{central coupling region}
+\rightarrow
+\text{OUTPUT THREAD}
+\]
+
+and the superimposed shapes behave like nested field-conditioning layers. That is exactly the visual language you need for the book’s propulsion concept: the vessel is not a point sitting inside a field, it is a **structured coupling body wrapped around the thread**.
+
+Then in the bent version, something more interesting happens. The source is displaced, the internal geometry distorts relative to the thread, and the path curves through the system.
+
+That gives you a very strong fictional principle:
+
+\[
+\boxed{
+\text{The vessel does not steer by pushing against space.}
+}
+\]
+
+It steers by changing the relationship between its internal geometry and the external field corridor.
+
+So instead of:
+
+\[
+\mathbf F = m\mathbf a
+\]
+
+being the operator’s direct command, the operator changes a coupling state:
+
+\[
+\Gamma(t)
+\]
+
+and the corridor responds through the coupled field solution:
+
+\[
+\Psi_{\text{field+vessel}}(t)
+\]
+
+which alters the local momentum flow and bends the trajectory.
+
+In book language, this is beautiful because the pilot is not “turning the ship.”
+
+The pilot is **bending the thread through the ship**.
+
+That phrase on the interface:
+
+**PASS THE THREAD THROUGH THE CENTRE**
+
+is actually doing a lot of work.
+
+It implies there is a preferred low-loss state:
+
+\[
+\text{thread aligned with centre}
+\Rightarrow
+\text{maximum symmetry}
+\Rightarrow
+\text{minimum transverse instability}
+\]
+
+and when the source moves off-axis:
+
+\[
+\delta r\neq0
+\]
+
+the vessel deliberately creates an asymmetric field response.
+
+That asymmetry becomes steering.
+
+The superimposed-shape view also gives you another layer: each geometry can represent a different **mode of coupling**, not necessarily a physical polygon bolted into the ship. One mode might stabilize, another bend, another compress the field, another distribute stress, another phase-lock.
+
+So the eight shapes could become something like eight simultaneous field eigenmodes:
+
+\[
+\Psi
+=
+\sum_{k=1}^{8}
+a_k(t)\,\psi_k
+\]
+
+where the vessel continuously adjusts the coefficients \(a_k(t)\).
+
+That means the ship is effectively reconfiguring its electromagnetic identity in real time.
+
+And now your phrase becomes literal inside the fiction:
+
+\[
+\boxed{
+\text{the vessel is the engine}
+}
+\]
+
+because the “engine” is not a separate unit producing thrust. The entire craft is a dynamically reconfigurable field boundary whose geometry determines how the cosmic corridor passes through it.
+
+The first screenshot is the **cruise state**.
+
+The second is the **vectoring state**.
+
+And I would codify them that way in the story:
+
+\[
+\boxed{
+\Gamma_0:\text{ Thread-Centred / Cruise}
+}
+\]
+
+\[
+\boxed{
+\Gamma_\delta:\text{ Thread-Offset / Vectoring}
+}
+\]
+
+That is the first time the visual language and the propulsion idea feel like the same system rather than two separate concepts.
